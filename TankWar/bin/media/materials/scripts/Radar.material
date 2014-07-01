@@ -1,0 +1,57 @@
+material TankWar/Radar
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			cull_hardware none
+			cull_software none
+			
+			texture_unit
+			{
+				texture background.png
+			}
+
+			texture_unit
+			{
+				texture radar_1.png
+				colour_op modulate 
+			}
+			
+			texture_unit
+			{
+				texture radar_2.png
+				rotate_anim 0.25
+				tex_address_mode clamp
+				//colour_op alpha_blend
+				//colour_op_ex source2 src_current src_texture 
+				//colour_op_ex add_signed src_manual src_current 0.5
+			}
+		}
+	}
+}
+
+material TankWar/Radar/Enemy
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			depth_write off
+			// 这里使用alpha混合, 实现透明效果
+			scene_blend alpha_blend 
+
+			texture_unit
+			{
+				tex_address_mode clamp
+				texture radar_enemy.png
+				filtering trilinear 
+				wave_xform scale_x triangle   0.75 0.5 0.0 0.5
+				wave_xform scale_y triangle   0.75 0.5 0.0 0.5
+			}
+		}
+	}
+}

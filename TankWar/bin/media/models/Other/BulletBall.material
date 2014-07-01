@@ -1,0 +1,32 @@
+
+material BulletBall
+{
+	technique
+	{
+		pass
+		{
+			ambient 0.7 0.7 0.7 1
+			diffuse 0.7 0.7 0.7 1
+			specular 0.1 0.1 0.1 10 0
+			
+			scene_blend add
+			
+
+			lighting off
+			depth_write off
+			//scene_blend alpha_blend
+			
+			texture_unit
+			{
+				//texture Flash01.dds
+				texture Flash02.dds
+				filtering trilinear 
+				tex_address_mode clamp
+			}
+		}
+
+	}
+
+}
+
+

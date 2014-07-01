@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name="LosterImageSet" Imagefile="Loster.png"  NativeHorzRes="800" NativeVertRes="600" AutoScaled="true" >
+	<Image Name="Loster" XPos="0" YPos="0" Width="128" Height="128" />
+</Imageset>

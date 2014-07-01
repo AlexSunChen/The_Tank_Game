@@ -1,0 +1,233 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E99780C7-CB30-42EA-A627-31EEC3B75DB1}</ProjectGuid>
+    <RootNamespace>TankWar</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">obj\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">obj\$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>include;..\dependence\OgreSDK\include\ogre;..\dependence\tinyXml\include;..\dependence\ogreMax\include;..\dependence\fmod\include;..\dependence\OgreSDK\include;..\dependence\CEGUI\cegui\include;..\dependence\CEGUI\cegui\include\RendererModules\Ogre;..\dependence\OgreSDK\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4244;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;CEGUIBase_d.lib;CEGUIOgreRenderer_d.lib;fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName)_d.exe</OutputFile>
+      <AdditionalLibraryDirectories>..\dependence\OgreSDK\lib\debug;..\dependence\CEGUI\cegui\lib;..\dependence\fmod\lib;..\dependence\OgreSDK\boost\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)TankWar.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>include;..\dependence\OgreSDK\include\ogre;..\dependence\tinyXml\include;..\dependence\ogreMax\include;..\dependence\fmod\include;..\dependence\OgreSDK\include;..\dependence\CEGUI\cegui\include;..\dependence\CEGUI\cegui\include\RendererModules\Ogre;..\dependence\OgreSDK\boost;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <MinimalRebuild>true</MinimalRebuild>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4390;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;CEGUIBase.lib;CEGUIOgreRenderer.lib;..\dependence\fmod\lib\fmodex_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(ProjectName).exe</OutputFile>
+      <AdditionalLibraryDirectories>..\dependence\OgreSDK\lib\release;..\dependence\CEGUI\cegui\lib;..\dependence\fmod\lib;..\dependence\OgreSDK\boost\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>
+      </Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="res\Resource.h" />
+    <ClInclude Include="include\ChooseMapState.h" />
+    <ClInclude Include="include\GameState.h" />
+    <ClInclude Include="include\MenuState.h" />
+    <ClInclude Include="include\State.h" />
+    <ClInclude Include="include\StateManager.h" />
+    <ClInclude Include="include\ChaseCamera.h" />
+    <ClInclude Include="include\CollisionTools.h" />
+    <ClInclude Include="include\Common.h" />
+    <ClInclude Include="include\Config.h" />
+    <ClInclude Include="include\MapLoader.h" />
+    <ClInclude Include="include\MiniMap.h" />
+    <ClInclude Include="include\Trail.h" />
+    <ClInclude Include="include\Util.h" />
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxModel.hpp" />
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxPlatform.hpp" />
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxRenderWindowIterator.hpp" />
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxScene.hpp" />
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxTypes.hpp" />
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxUtilities.hpp" />
+    <ClInclude Include="..\dependence\ogreMax\include\ProgressCalculator.hpp" />
+    <ClInclude Include="..\dependence\ogreMax\include\Version.hpp" />
+    <ClInclude Include="..\dependence\tinyXml\include\tinystr.h" />
+    <ClInclude Include="..\dependence\tinyXml\include\tinyxml.h" />
+    <ClInclude Include="..\dependence\fmod\include\fmod.h" />
+    <ClInclude Include="..\dependence\fmod\include\fmod.hpp" />
+    <ClInclude Include="..\dependence\fmod\include\fmod_codec.h" />
+    <ClInclude Include="..\dependence\fmod\include\fmod_dsp.h" />
+    <ClInclude Include="..\dependence\fmod\include\fmod_errors.h" />
+    <ClInclude Include="..\dependence\fmod\include\fmod_memoryinfo.h" />
+    <ClInclude Include="..\dependence\fmod\include\fmod_output.h" />
+    <ClInclude Include="include\AudioManager.h" />
+    <ClInclude Include="include\ContextApp.h" />
+    <ClInclude Include="include\GUIManager.h" />
+    <ClInclude Include="include\InputManager.h" />
+    <ClInclude Include="include\MapManager.h" />
+    <ClInclude Include="include\ObjectManager.h" />
+    <ClInclude Include="include\SingletonT.h" />
+    <ClInclude Include="include\BaseBullet.h" />
+    <ClInclude Include="include\ImpulseBullet.h" />
+    <ClInclude Include="include\RocketBullet.h" />
+    <ClInclude Include="include\BaseTank.h" />
+    <ClInclude Include="include\BlueTank.h" />
+    <ClInclude Include="include\GreenTank.h" />
+    <ClInclude Include="include\Item.h" />
+    <ClInclude Include="include\Object.h" />
+    <ClInclude Include="include\StaticObject.h" />
+    <ClInclude Include="include\BulletFactory.h" />
+    <ClInclude Include="include\IFactory.h" />
+    <ClInclude Include="include\ItemFactory.h" />
+    <ClInclude Include="include\StaticObjectFactory.h" />
+    <ClInclude Include="include\TankFactory.h" />
+    <ClInclude Include="include\GameApp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TankWar.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\TankWar.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ChooseMapState.cpp" />
+    <ClCompile Include="src\GameState.cpp" />
+    <ClCompile Include="src\MenuState.cpp" />
+    <ClCompile Include="src\State.cpp" />
+    <ClCompile Include="src\StateManager.cpp" />
+    <ClCompile Include="src\ChaseCamera.cpp" />
+    <ClCompile Include="src\CollisionTools.cpp" />
+    <ClCompile Include="src\Config.cpp" />
+    <ClCompile Include="src\MapLoader.cpp" />
+    <ClCompile Include="src\MiniMap.cpp" />
+    <ClCompile Include="src\Trail.cpp" />
+    <ClCompile Include="src\Util.cpp" />
+    <ClCompile Include="..\dependence\ogreMax\src\OgreMaxModel.cpp" />
+    <ClCompile Include="..\dependence\ogreMax\src\OgreMaxScene.cpp" />
+    <ClCompile Include="..\dependence\ogreMax\src\OgreMaxUtilities.cpp" />
+    <ClCompile Include="..\dependence\ogreMax\src\ProgressCalculator.cpp" />
+    <ClCompile Include="..\dependence\ogreMax\src\Version.cpp" />
+    <ClCompile Include="..\dependence\tinyXml\src\tinystr.cpp" />
+    <ClCompile Include="..\dependence\tinyXml\src\tinyxml.cpp" />
+    <ClCompile Include="..\dependence\tinyXml\src\tinyxmlerror.cpp" />
+    <ClCompile Include="..\dependence\tinyXml\src\tinyxmlparser.cpp" />
+    <ClCompile Include="src\AudioManager.cpp" />
+    <ClCompile Include="src\ContextApp.cpp" />
+    <ClCompile Include="src\GUIManager.cpp" />
+    <ClCompile Include="src\InputManager.cpp" />
+    <ClCompile Include="src\MapManager.cpp" />
+    <ClCompile Include="src\ObjectManager.cpp" />
+    <ClCompile Include="src\BaseBullet.cpp" />
+    <ClCompile Include="src\ImpulseBullet.cpp" />
+    <ClCompile Include="src\RocketBullet.cpp" />
+    <ClCompile Include="src\BaseTank.cpp" />
+    <ClCompile Include="src\BlueTank.cpp" />
+    <ClCompile Include="src\GreenTank.cpp" />
+    <ClCompile Include="src\Item.cpp" />
+    <ClCompile Include="src\Object.cpp" />
+    <ClCompile Include="src\StaticObject.cpp" />
+    <ClCompile Include="src\BulletFactory.cpp" />
+    <ClCompile Include="src\ItemFactory.cpp" />
+    <ClCompile Include="src\StaticObjectFactory.cpp" />
+    <ClCompile Include="src\TankFactory.cpp" />
+    <ClCompile Include="src\GameApp.cpp" />
+    <ClCompile Include="src\TankWar.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

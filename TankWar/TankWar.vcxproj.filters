@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="FSM">
+      <UniqueIdentifier>{3cd295e3-d156-4ff3-8a54-cebd0273e9bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{07231c64-0007-4320-b9f1-06203a70a4d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence">
+      <UniqueIdentifier>{f90c1143-1144-4478-a101-a5b86a6f744a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\OgreMaxScene">
+      <UniqueIdentifier>{c14b3eaa-09fc-47bc-8675-98d323fa564e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\XMLParse">
+      <UniqueIdentifier>{32ff5427-62d2-4590-be5d-31701160d3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependence\FMod">
+      <UniqueIdentifier>{23aa0214-5460-4cb1-a2be-780fe1ac54a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameManager">
+      <UniqueIdentifier>{f10312e6-89d6-4bc8-a220-42951730599a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bullet">
+      <UniqueIdentifier>{513abff4-b4c4-4a34-b536-17048546ded0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{57b1eff6-918e-4abc-a414-b37c041ea05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Tank">
+      <UniqueIdentifier>{75da2e72-88ac-4d93-9905-d57676a5acde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Item">
+      <UniqueIdentifier>{658e1ec7-4ab9-46fe-a7e2-db3e4351fd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Object">
+      <UniqueIdentifier>{ff2371b2-0c0c-4015-8587-105b69abe233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Factory">
+      <UniqueIdentifier>{35ca45f4-d1c1-4adb-8366-65f2722eea19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clinet">
+      <UniqueIdentifier>{008c22af-9588-401b-acef-d1cb10aebcc7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="res\Resource.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ChooseMapState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MenuState.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\State.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StateManager.h">
+      <Filter>FSM</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ChaseCamera.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\CollisionTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Config.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MapLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MiniMap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Trail.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Util.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxModel.hpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxPlatform.hpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxRenderWindowIterator.hpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxScene.hpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxTypes.hpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\ogreMax\include\OgreMaxUtilities.hpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\ogreMax\include\ProgressCalculator.hpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\ogreMax\include\Version.hpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\tinyXml\include\tinystr.h">
+      <Filter>Dependence\XMLParse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\tinyXml\include\tinyxml.h">
+      <Filter>Dependence\XMLParse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\fmod\include\fmod.h">
+      <Filter>Dependence\FMod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\fmod\include\fmod.hpp">
+      <Filter>Dependence\FMod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\fmod\include\fmod_codec.h">
+      <Filter>Dependence\FMod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\fmod\include\fmod_dsp.h">
+      <Filter>Dependence\FMod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\fmod\include\fmod_errors.h">
+      <Filter>Dependence\FMod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\fmod\include\fmod_memoryinfo.h">
+      <Filter>Dependence\FMod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependence\fmod\include\fmod_output.h">
+      <Filter>Dependence\FMod</Filter>
+    </ClInclude>
+    <ClInclude Include="include\AudioManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ContextApp.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GUIManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\InputManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MapManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ObjectManager.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SingletonT.h">
+      <Filter>GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseBullet.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ImpulseBullet.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RocketBullet.h">
+      <Filter>Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BaseTank.h">
+      <Filter>GameObject\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BlueTank.h">
+      <Filter>GameObject\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GreenTank.h">
+      <Filter>GameObject\Tank</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Item.h">
+      <Filter>GameObject\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Object.h">
+      <Filter>GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StaticObject.h">
+      <Filter>GameObject\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="include\BulletFactory.h">
+      <Filter>GameObject\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\IFactory.h">
+      <Filter>GameObject\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ItemFactory.h">
+      <Filter>GameObject\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\StaticObjectFactory.h">
+      <Filter>GameObject\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TankFactory.h">
+      <Filter>GameObject\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="include\GameApp.h">
+      <Filter>Clinet</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\TankWar.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="res\TankWar.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ChooseMapState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MenuState.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\State.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StateManager.cpp">
+      <Filter>FSM</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ChaseCamera.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CollisionTools.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Config.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MiniMap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Trail.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Util.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\ogreMax\src\OgreMaxModel.cpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\ogreMax\src\OgreMaxScene.cpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\ogreMax\src\OgreMaxUtilities.cpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\ogreMax\src\ProgressCalculator.cpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\ogreMax\src\Version.cpp">
+      <Filter>Dependence\OgreMaxScene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\tinyXml\src\tinystr.cpp">
+      <Filter>Dependence\XMLParse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\tinyXml\src\tinyxml.cpp">
+      <Filter>Dependence\XMLParse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\tinyXml\src\tinyxmlerror.cpp">
+      <Filter>Dependence\XMLParse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependence\tinyXml\src\tinyxmlparser.cpp">
+      <Filter>Dependence\XMLParse</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AudioManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ContextApp.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GUIManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\InputManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MapManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObjectManager.cpp">
+      <Filter>GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseBullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImpulseBullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RocketBullet.cpp">
+      <Filter>Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseTank.cpp">
+      <Filter>GameObject\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BlueTank.cpp">
+      <Filter>GameObject\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GreenTank.cpp">
+      <Filter>GameObject\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Item.cpp">
+      <Filter>GameObject\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Object.cpp">
+      <Filter>GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StaticObject.cpp">
+      <Filter>GameObject\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BulletFactory.cpp">
+      <Filter>GameObject\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ItemFactory.cpp">
+      <Filter>GameObject\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StaticObjectFactory.cpp">
+      <Filter>GameObject\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TankFactory.cpp">
+      <Filter>GameObject\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameApp.cpp">
+      <Filter>Clinet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TankWar.cpp">
+      <Filter>Clinet</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

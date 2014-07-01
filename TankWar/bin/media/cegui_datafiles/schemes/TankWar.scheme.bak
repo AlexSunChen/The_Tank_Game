@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<GUIScheme Name="VanillaSkin">
+	<Imageset Name="Vanilla-Images" Filename="Vanilla.imageset" />
+	<Imageset Name="InfosImageSet" Filename="InfosImageSet.imageset" />
+	<Imageset Name="NormalImageSet" Filename="NormalImageSet.imageset" />
+	<Imageset Name="BackgroundImageSet" Filename="Background.imageset" />
+	<Imageset Name="LogoImageSet" Filename="LogoImageSet.imageset" />
+	<Imageset Name="WinnerImageSet" Filename="Winner.imageset" />
+	<Imageset Name="LosterImageSet" Filename="Loster.imageset" />
+
+    <Font Name="BlueHighway-10" Filename="bluehighway-10.font" />
+    <Font Name="FairChar" Filename="FairChar.font" />
+    <Font Name="digifaw" Filename="digifaw.font" />
+    
+</GUIScheme>

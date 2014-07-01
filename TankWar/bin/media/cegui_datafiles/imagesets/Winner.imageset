@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Imageset Name="WinnerImageSet" Imagefile="Winner.png"  NativeHorzRes="800" NativeVertRes="600" AutoScaled="true" >
+	<Image Name="Winner" XPos="0" YPos="0" Width="256" Height="256" />
+</Imageset>

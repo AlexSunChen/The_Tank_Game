@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="OgreTray/StaticImage" Name="root" >
+        <Property Name="Font" Value="DejaVuSans-10" />
+        <Property Name="FrameEnabled" Value="False" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="BackgroundEnabled" Value="False" />
+        <Window Type="OgreTray/FrameWindow" Name="Demo/NewNode" >
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="New Node" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="RollUpEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{0.8,0},{0.8,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0.2,0},{0.2,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.6,0},{0.1,0},{0.9,0},{0.6,0}}" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="EWSizingCursorImage" Value="set:Vanilla-Images image:MouseArrow" />
+            <Property Name="NSSizingCursorImage" Value="set:Vanilla-Images image:MouseArrow" />
+            <Property Name="NESWSizingCursorImage" Value="set:Vanilla-Images image:MouseArrow" />
+            <Property Name="NWSESizingCursorImage" Value="set:Vanilla-Images image:MouseArrow" />
+            <Window Type="OgreTray/Listbox" Name="Demo7/Window2/Listbox" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,7},{1,-7},{1,-73}}" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+            </Window>
+            <Window Type="OgreTray/StaticText" Name="Demo/NewNode/label1" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="Name:" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,-45},{0,67},{0,-15}}" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+            </Window>
+            <Window Type="OgreTray/Editbox" Name="Demo/NewNode/Editbox" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="MaxTextLength" Value="1073741823" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-7},{0,-40},{1,-81},{0,-10}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="TextParsingEnabled" Value="False" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Demo/NewNode/Okay" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="Okay" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,-7},{0,67},{0,23}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="WantsMultiClickEvents" Value="False" />
+            </Window>
+            <Window Type="OgreTray/Button" Name="Demo/NewNode/Cancel" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="Cancel" />
+                <Property Name="UnifiedAreaRect" Value="{{0,-7},{0,-7},{0,53},{0,23}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="HorizontalAlignment" Value="Right" />
+                <Property Name="WantsMultiClickEvents" Value="False" />
+            </Window>
+        </Window>
+        <Window Type="OgreTray/FrameWindow" Name="Demo/NamespaceViewer" >
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="Namespace Viewer" />
+            <Property Name="CaptionFont" Value="DejaVuSans-10" />
+            <Property Name="RollUpEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{0.8,0},{0.8,0}}" />
+            <Property Name="UnifiedMinSize" Value="{{0.2,0},{0.2,0}}" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0.04875,0},{0.0983334,0},{0.54875,0},{0.598333,0}}" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="EWSizingCursorImage" Value="set:Vanilla-Images image:MouseArrow" />
+            <Property Name="NSSizingCursorImage" Value="set:Vanilla-Images image:MouseArrow" />
+            <Property Name="NESWSizingCursorImage" Value="set:Vanilla-Images image:MouseArrow" />
+            <Property Name="NWSESizingCursorImage" Value="set:Vanilla-Images image:MouseArrow" />
+            <Window Type="OgreTray/StaticText" Name="Demo/NamespaceViewer/area1" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="TextColours" Value="tl:FFFFFFFF tr:FFFFFFFF bl:FFFFFFFF br:FFFFFFFF" />
+                <Property Name="HorzFormatting" Value="LeftAligned" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,7},{1,-7},{0,100}}" />
+            </Window>
+            <Window Type="OgreTray/Listbox" Name="Demo/NamespaceViewer/area2" >
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="UnifiedAreaRect" Value="{{0,7},{0,-7},{1,-7},{1,-117}}" />
+                <Property Name="VerticalAlignment" Value="Bottom" />
+                <Property Name="ForceVertScrollbar" Value="True" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>
