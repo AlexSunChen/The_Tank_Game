@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<Font Name="FairChar" Filename="Font.imageset" Type="Pixmap" NativeHorzRes="640" NativeVertRes="480" AutoScaled="false">
+	<Mapping Codepoint="48" Image="0" />
+	<Mapping Codepoint="49" Image="1" />
+	<Mapping Codepoint="50" Image="2" />
+	<Mapping Codepoint="51" Image="3" />
+	<Mapping Codepoint="52" Image="4" />
+	<Mapping Codepoint="53" Image="5" />
+	<Mapping Codepoint="54" Image="6" />
+	<Mapping Codepoint="55" Image="7" />
+	<Mapping Codepoint="56" Image="8" />
+	<Mapping Codepoint="57" Image="9" />
+</Font>

@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Terrain>
+    <Config Name="map001">
+        <Type>Forest_1</Type>
+        <Mesh>Terr_Forest_1</Mesh>
+        <Mode>Single Player Mode</Mode>
+        <Grid X="15" Z="14" Size="10" />
+    </Config>
+    <Tanks>
+        <Tank Name="Tank_1">
+            <Metarial>0000</Metarial>
+            <Data Number="10" Money="99" MinPower="50" MaxPower="99" LifeValue="99" TankSpeed="8" BulletSpeed="6" AI="" DefenseValue="5" />
+        </Tank>
+    </Tanks>
+    <Nodes ID="159">
+        <Node Name="Bunker#25">
+            <Mesh>Bunker</Mesh>
+            <Position X="-40.000000" Y="1.908969" Z="15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Bunker" DamageMat="Bunker" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="8" Z="3" Value="1" />
+        </Node>
+        <Node Name="Bunker#86">
+            <Mesh>Bunker</Mesh>
+            <Position X="0.000000" Y="1.908969" Z="15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Bunker" DamageMat="Bunker" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="8" Z="7" Value="1" />
+        </Node>
+        <Node Name="Bunker#87">
+            <Mesh>Bunker</Mesh>
+            <Position X="70.000000" Y="1.908969" Z="-5.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Bunker" DamageMat="Bunker" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="6" Z="14" Value="1" />
+        </Node>
+        <Node Name="Bunker#89">
+            <Mesh>Bunker</Mesh>
+            <Position X="-40.000000" Y="1.908969" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Bunker" DamageMat="Bunker" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="2" Z="3" Value="1" />
+        </Node>
+        <Node Name="Flower#101">
+            <Mesh>Flower</Mesh>
+            <Position X="50.000000" Y="0.662731" Z="45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Normal_Object" DamageMat="Normal_Object" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="11" Z="12" Value="0" />
+        </Node>
+        <Node Name="Flower#102">
+            <Mesh>Flower</Mesh>
+            <Position X="8.560356" Y="0.662731" Z="52.933277" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Normal_Object" DamageMat="Normal_Object" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="12" Z="8" Value="0" />
+        </Node>
+        <Node Name="Flower#103">
+            <Mesh>Flower</Mesh>
+            <Position X="15.291306" Y="0.662731" Z="34.087151" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Normal_Object" DamageMat="Normal_Object" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="10" Z="9" Value="0" />
+        </Node>
+        <Node Name="Flower#116">
+            <Mesh>Flower</Mesh>
+            <Position X="-40.119324" Y="0.662731" Z="-35.257244" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Normal_Object" DamageMat="Normal_Object" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="3" Z="3" Value="0" />
+        </Node>
+        <Node Name="Flower#117">
+            <Mesh>Flower</Mesh>
+            <Position X="-59.976608" Y="0.662731" Z="-34.800716" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Normal_Object" DamageMat="Normal_Object" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="3" Z="1" Value="0" />
+        </Node>
+        <Node Name="Flower#118">
+            <Mesh>Flower</Mesh>
+            <Position X="-49.867786" Y="0.662731" Z="-26.277355" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Normal_Object" DamageMat="Normal_Object" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="4" Z="2" Value="0" />
+        </Node>
+        <Node Name="Flower#119">
+            <Mesh>Flower</Mesh>
+            <Position X="-49.679394" Y="0.662731" Z="-45.283066" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Normal_Object" DamageMat="Normal_Object" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="2" Z="2" Value="0" />
+        </Node>
+        <Node Name="Plane_2#85">
+            <Mesh>Plane_2</Mesh>
+            <Position X="79.901566" Y="10.902818" Z="6.236877" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.076039" Y="-0.458834" Z="-0.004905" W="0.885275" />
+            <Metarial NormalMat="Plane" DamageMat="Plane" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="7" Z="14" Value="0" />
+        </Node>
+        <Node Name="Rock#82">
+            <Mesh>Rock</Mesh>
+            <Position X="-70.000000" Y="3.368059" Z="55.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Normal_Object" DamageMat="Normal_Object" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="12" Z="0" Value="1" />
+        </Node>
+        <Node Name="Tower#100">
+            <Mesh>Tower</Mesh>
+            <Position X="70.000000" Y="9.487063" Z="65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tower" DamageMat="Tower" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="13" Z="14" Value="1" />
+        </Node>
+        <Node Name="Tree_3#106">
+            <Mesh>Tree_3</Mesh>
+            <Position X="66.762100" Y="4.247236" Z="-2.672455" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="6" Z="14" Value="0" />
+        </Node>
+        <Node Name="Tree_3#109">
+            <Mesh>Tree_3</Mesh>
+            <Position X="16.909111" Y="4.247236" Z="52.957623" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="12" Z="9" Value="0" />
+        </Node>
+        <Node Name="Tree_3#120">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-49.606419" Y="4.247236" Z="-36.720249" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="3" Z="2" Value="0" />
+        </Node>
+        <Node Name="Tree_3#122">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-41.639763" Y="4.247236" Z="-45.132675" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="2" Z="3" Value="0" />
+        </Node>
+        <Node Name="Tree_3#123">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-47.540676" Y="4.247236" Z="-55.941040" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="1" Z="2" Value="0" />
+        </Node>
+        <Node Name="Tree_3#124">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-68.047249" Y="4.247236" Z="-35.640160" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="3" Z="0" Value="0" />
+        </Node>
+        <Node Name="Tree_3#125">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-34.525436" Y="4.247236" Z="-56.208298" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="1" Z="4" Value="0" />
+        </Node>
+        <Node Name="Tree_3#126">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-60.646736" Y="4.247236" Z="-26.910725" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="4" Z="1" Value="0" />
+        </Node>
+        <Node Name="Tree_3#127">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-65.392952" Y="4.247236" Z="-46.994530" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="2" Z="0" Value="0" />
+        </Node>
+        <Node Name="Tree_3#128">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-41.739006" Y="4.247236" Z="-64.906219" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="0" Z="3" Value="0" />
+        </Node>
+        <Node Name="Tree_3#129">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-61.631172" Y="4.247236" Z="-58.540905" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="1" Z="1" Value="0" />
+        </Node>
+        <Node Name="Tree_3#144">
+            <Mesh>Tree_3</Mesh>
+            <Position X="10.000000" Y="4.247236" Z="15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="8" Z="8" Value="0" />
+        </Node>
+        <Node Name="Tree_3#145">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-20.000000" Y="4.247236" Z="15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="8" Z="5" Value="0" />
+        </Node>
+        <Node Name="Tree_3#146">
+            <Mesh>Tree_3</Mesh>
+            <Position X="0.000000" Y="4.247236" Z="25.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="9" Z="7" Value="0" />
+        </Node>
+        <Node Name="Tree_3#147">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-10.000000" Y="4.247236" Z="25.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="9" Z="6" Value="0" />
+        </Node>
+        <Node Name="Tree_3#148">
+            <Mesh>Tree_3</Mesh>
+            <Position X="0.000000" Y="4.247236" Z="15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="8" Z="7" Value="0" />
+        </Node>
+        <Node Name="Tree_3#149">
+            <Mesh>Tree_3</Mesh>
+            <Position X="10.000000" Y="4.247236" Z="25.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="9" Z="8" Value="0" />
+        </Node>
+        <Node Name="Tree_3#150">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-20.000000" Y="4.247236" Z="-5.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="6" Z="5" Value="0" />
+        </Node>
+        <Node Name="Tree_3#151">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-20.000000" Y="4.247236" Z="5.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="7" Z="5" Value="0" />
+        </Node>
+        <Node Name="Tree_3#152">
+            <Mesh>Tree_3</Mesh>
+            <Position X="0.000000" Y="4.247236" Z="-5.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="6" Z="7" Value="0" />
+        </Node>
+        <Node Name="Tree_3#54">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-10.000000" Y="4.247236" Z="15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="8" Z="6" Value="0" />
+        </Node>
+        <Node Name="Tree_3#55">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-17.500000" Y="4.247236" Z="32.500000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.001900" Y="0.354240" Z="0.017349" W="0.935001" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="10" Z="5" Value="0" />
+        </Node>
+        <Node Name="Tree_3#58">
+            <Mesh>Tree_3</Mesh>
+            <Position X="0.000000" Y="4.247236" Z="5.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="7" Z="7" Value="0" />
+        </Node>
+        <Node Name="Tree_3#59">
+            <Mesh>Tree_3</Mesh>
+            <Position X="17.500000" Y="4.247236" Z="27.500000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="9" Z="9" Value="0" />
+        </Node>
+        <Node Name="Tree_3#60">
+            <Mesh>Tree_3</Mesh>
+            <Position X="17.500000" Y="4.247236" Z="7.500000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="7" Z="9" Value="0" />
+        </Node>
+        <Node Name="Tree_3#73">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-52.500000" Y="4.247236" Z="52.500000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="12" Z="2" Value="0" />
+        </Node>
+        <Node Name="Tree_3#74">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-46.728210" Y="4.247236" Z="63.977158" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="13" Z="2" Value="0" />
+        </Node>
+        <Node Name="Tree_3#8">
+            <Mesh>Tree_3</Mesh>
+            <Position X="-11.473450" Y="4.247236" Z="-2.668747" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="6" Z="6" Value="0" />
+        </Node>
+        <Node Name="Tree_3#9">
+            <Mesh>Tree_3</Mesh>
+            <Position X="3.094950" Y="4.247240" Z="6.226840" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="-0.000000" Z="0.000000" W="1.000020" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>True</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="7" Z="7" Value="0" />
+        </Node>
+        <Node Name="Tree_3#90">
+            <Mesh>Tree_3</Mesh>
+            <Position X="50.000000" Y="4.247236" Z="15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="8" Z="12" Value="0" />
+        </Node>
+        <Node Name="Tree_4#10">
+            <Mesh>Tree_4</Mesh>
+            <Position X="12.738000" Y="3.547290" Z="-5.555860" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="6" Z="8" Value="0" />
+        </Node>
+        <Node Name="Tree_4#107">
+            <Mesh>Tree_4</Mesh>
+            <Position X="69.010971" Y="3.547294" Z="6.248146" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="7" Z="14" Value="0" />
+        </Node>
+        <Node Name="Tree_5#104">
+            <Mesh>Tree_5</Mesh>
+            <Position X="70.189873" Y="2.908673" Z="34.585632" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="10" Z="14" Value="0" />
+        </Node>
+        <Node Name="Tree_5#121">
+            <Mesh>Tree_5</Mesh>
+            <Position X="-59.282227" Y="2.908673" Z="-40.755573" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Tree" DamageMat="Tree" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="2" Z="1" Value="0" />
+        </Node>
+        <Node Name="Tree_6#111">
+            <Mesh>Tree_6</Mesh>
+            <Position X="66.683960" Y="3.002275" Z="-64.466141" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Bridge" DamageMat="Rock_Bridge" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="0" Z="14" Value="0" />
+        </Node>
+        <Node Name="Tree_6#71">
+            <Mesh>Tree_6</Mesh>
+            <Position X="-60.000000" Y="3.002275" Z="35.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Bridge" DamageMat="Rock_Bridge" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="10" Z="1" Value="0" />
+        </Node>
+        <Node Name="Tree_6#72">
+            <Mesh>Tree_6</Mesh>
+            <Position X="-65.547096" Y="3.002275" Z="60.058727" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Bridge" DamageMat="Rock_Bridge" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="13" Z="0" Value="0" />
+        </Node>
+        <Node Name="Wall_Big_1#0">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="0.000000" Y="2.132412" Z="-15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="5" Z="7" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#112">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="50.000000" Y="2.132412" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="2" Z="12" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#113">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="60.000000" Y="2.132412" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="2" Z="13" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#114">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="40.000000" Y="2.132412" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="2" Z="11" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#139">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-10.000000" Y="2.132412" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="2" Z="6" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#140">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="0.000000" Y="2.132412" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="2" Z="7" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#141">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="10.000000" Y="2.132412" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="2" Z="8" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#143">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-30.000000" Y="2.132412" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="2" Z="4" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#2">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-10.000000" Y="2.132412" Z="-15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="5" Z="6" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#3">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="10.000000" Y="2.132410" Z="-15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="5" Z="8" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#43">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-30.000000" Y="2.132412" Z="5.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="7" Z="4" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#44">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-30.000000" Y="2.132412" Z="15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="8" Z="4" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#45">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-30.000000" Y="2.132412" Z="25.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="9" Z="4" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#61">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="20.000000" Y="2.132412" Z="-5.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="6" Z="9" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#62">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-10.000000" Y="2.132412" Z="55.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="12" Z="6" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#63">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-10.000000" Y="2.132412" Z="65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="13" Z="6" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#64">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="0.000000" Y="2.132412" Z="55.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="12" Z="7" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#65">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="10.000000" Y="2.132412" Z="55.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="12" Z="8" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#66">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="10.000000" Y="2.132412" Z="65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="13" Z="8" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#76">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="-40.000000" Y="2.132412" Z="25.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="9" Z="3" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#92">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="60.000000" Y="2.132412" Z="65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="13" Z="13" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#93">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="50.000000" Y="2.132412" Z="65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="13" Z="12" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#94">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="70.000000" Y="2.132412" Z="55.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="12" Z="14" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_1#95">
+            <Mesh>Wall_Big_1</Mesh>
+            <Position X="70.000000" Y="2.132412" Z="45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Red_Wall_Normal" DamageMat="Red_Wall_Damaged" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="11" Z="14" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_2#153">
+            <Mesh>Wall_Big_2</Mesh>
+            <Position X="70.000000" Y="2.143611" Z="35.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Wall_Normal" DamageMat="Rock_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="10" Z="14" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_2#154">
+            <Mesh>Wall_Big_2</Mesh>
+            <Position X="50.000000" Y="2.143611" Z="25.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Wall_Normal" DamageMat="Rock_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="9" Z="12" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_2#155">
+            <Mesh>Wall_Big_2</Mesh>
+            <Position X="50.000000" Y="2.143611" Z="35.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Wall_Normal" DamageMat="Rock_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="10" Z="12" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_2#156">
+            <Mesh>Wall_Big_2</Mesh>
+            <Position X="40.000000" Y="2.143611" Z="35.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Wall_Normal" DamageMat="Rock_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="10" Z="11" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_2#68">
+            <Mesh>Wall_Big_2</Mesh>
+            <Position X="60.000000" Y="2.143611" Z="-15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Wall_Normal" DamageMat="Rock_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="5" Z="13" Value="1" />
+        </Node>
+        <Node Name="Wall_Big_2#69">
+            <Mesh>Wall_Big_2</Mesh>
+            <Position X="70.000000" Y="2.143611" Z="-15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Rock_Wall_Normal" DamageMat="Rock_Wall_Normal" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="5" Z="14" Value="1" />
+        </Node>
+        <Node Name="Wall_Break#26">
+            <Mesh>Wall_Break</Mesh>
+            <Position X="20.000000" Y="1.026118" Z="-55.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Break_Wall" DamageMat="Break_Wall" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="1" Z="9" Value="0" />
+        </Node>
+        <Node Name="Wall_Break#81">
+            <Mesh>Wall_Break</Mesh>
+            <Position X="-40.000000" Y="1.026118" Z="35.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Break_Wall" DamageMat="Break_Wall" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="0" />
+            <Map X="10" Z="3" Value="0" />
+        </Node>
+        <Node Name="Wall_Iron#115">
+            <Mesh>Wall_Iron</Mesh>
+            <Position X="20.000000" Y="4.185782" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Iron_Wall" DamageMat="Iron_Wall" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="2" Z="9" Value="1" />
+        </Node>
+        <Node Name="Wall_Iron#13">
+            <Mesh>Wall_Iron</Mesh>
+            <Position X="20.000000" Y="4.185780" Z="-15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Iron_Wall" DamageMat="Iron_Wall" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="10" />
+            <Map X="5" Z="9" Value="1" />
+        </Node>
+        <Node Name="Wall_Iron#130">
+            <Mesh>Wall_Iron</Mesh>
+            <Position X="-20.000000" Y="4.185782" Z="-45.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Iron_Wall" DamageMat="Iron_Wall" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="2" Z="5" Value="1" />
+        </Node>
+        <Node Name="Wall_Iron#157">
+            <Mesh>Wall_Iron</Mesh>
+            <Position X="-50.000000" Y="4.185782" Z="25.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Iron_Wall" DamageMat="Iron_Wall" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="9" Z="2" Value="1" />
+        </Node>
+        <Node Name="Wall_Iron#158">
+            <Mesh>Wall_Iron</Mesh>
+            <Position X="-30.000000" Y="4.185782" Z="-5.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Iron_Wall" DamageMat="Iron_Wall" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="6" Z="4" Value="1" />
+        </Node>
+        <Node Name="Wall_Iron#67">
+            <Mesh>Wall_Iron</Mesh>
+            <Position X="50.000000" Y="4.185782" Z="-15.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Iron_Wall" DamageMat="Iron_Wall" />
+            <ObjectType>OBJECT_NORMAL</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="1" />
+            <Map X="5" Z="12" Value="1" />
+        </Node>
+        <Node Name="Birth_Point#38">
+            <Mesh>Birth_Point</Mesh>
+            <Position X="-30.000000" Y="0.100000" Z="55.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Birth_Point" DamageMat="Birth_Point" />
+            <ObjectType>OBJECT_LOGIC</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="10" />
+            <Map X="12" Z="4" Value="5" />
+        </Node>
+        <Node Name="Birth_Point_Enemy#135">
+            <Mesh>Birth_Point_Enemy</Mesh>
+            <Position X="-60.000000" Y="0.100000" Z="-65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Birth_Point_Enemy" DamageMat="Birth_Point_Enemy" />
+            <ObjectType>OBJECT_LOGIC</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="0" Z="1" Value="5" />
+        </Node>
+        <Node Name="Birth_Point_Enemy#136">
+            <Mesh>Birth_Point_Enemy</Mesh>
+            <Position X="30.000000" Y="0.100000" Z="-65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Birth_Point_Enemy" DamageMat="Birth_Point_Enemy" />
+            <ObjectType>OBJECT_LOGIC</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="0" Z="10" Value="5" />
+        </Node>
+        <Node Name="Birth_Point_Enemy#137">
+            <Mesh>Birth_Point_Enemy</Mesh>
+            <Position X="60.000000" Y="0.100000" Z="-65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Birth_Point_Enemy" DamageMat="Birth_Point_Enemy" />
+            <ObjectType>OBJECT_LOGIC</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="200" Defense="1" Destructible="1" Collosion="1" />
+            <Map X="0" Z="13" Value="5" />
+        </Node>
+        <Node Name="Birth_Point_Enemy#37">
+            <Mesh>Birth_Point_Enemy</Mesh>
+            <Position X="-30.000000" Y="0.100000" Z="-65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Birth_Point_Enemy" DamageMat="Birth_Point_Enemy" />
+            <ObjectType>OBJECT_LOGIC</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="10" />
+            <Map X="0" Z="4" Value="5" />
+        </Node>
+        <Node Name="Camp#4">
+            <Mesh>Camp</Mesh>
+            <Position X="0.000000" Y="3.866293" Z="65.000000" />
+            <Scale X="1.000000" Y="1.000000" Z="-1.000000" />
+            <Rotate X="0.000000" Y="0.000000" Z="0.000000" W="1.000000" />
+            <Metarial NormalMat="Camp" DamageMat="Camp" />
+            <ObjectType>OBJECT_LOGIC</ObjectType>
+            <Lock>False</Lock>
+            <Data Life="100" Defense="1" Destructible="0" Collosion="10" />
+            <Map X="13" Z="7" Value="6" />
+        </Node>
+    </Nodes>
+</Terrain>

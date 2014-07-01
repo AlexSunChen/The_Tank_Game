@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="NormalImageSet" Imagefile="Button.png" >
+    <Image Name="Pre" XPos="192" YPos="448" Width="63" Height="63" />
+    <Image Name="Next" XPos="64" YPos="449" Width="64" Height="62" />
+    <Image Name="CursorOn" XPos="457" YPos="77" Width="32" Height="33" XOffset="-16" YOffset="-16" />
+    <Image Name="CursorFire" XPos="459" YPos="140" Width="40" Height="40" XOffset="-20" YOffset="-20"/>
+    <Image Name="CursorNormal" XPos="462" YPos="14" Width="46" Height="43" />
+</Imageset>

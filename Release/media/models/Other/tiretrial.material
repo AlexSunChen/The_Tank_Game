@@ -1,0 +1,24 @@
+
+material TireTrialMaterial
+{
+	technique
+	{
+		pass
+		{
+			ambient 0 0 0 1
+			diffuse 0 0 0 1
+			specular 0 0 0 1 10
+			scene_blend alpha_blend
+			//scene_blend add
+			depth_write off
+			
+			texture_unit
+			{
+				texture FaceSharp.JPG
+				tex_address_mode clamp
+			}
+		}
+
+	}
+
+}

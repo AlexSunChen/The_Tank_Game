@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="LosterUI" >
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Vanilla/StaticImage" Name="LosterUI/Info" >
+        	<Property Name="Alpha" Value="0.75" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.300975,0},{0.184101,0},{0.730311,0},{0.661441,0}}" />
+            <Window Type="Vanilla/StaticText" Name="LosterUI/Info/Text" >
+            	<Property Name="BackgroundEnabled" Value="False" />
+        		<Property Name="FrameEnabled" Value="False" />	
+                <Property Name="Text" Value="You Are Lost!!" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.213734,0},{0.0571986,0},{0.826958,0},{0.23249,0}}" />
+            </Window>
+             <Window Type="Vanilla/StaticText" Name="LosterUI/Info/Scores" >
+             	<Property Name="BackgroundEnabled" Value="False" />
+        		<Property Name="FrameEnabled" Value="False" />	
+                <Property Name="Text" Value="Scores     :     100000" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.218275,0},{0.32179,0},{0.822419,0},{0.469066,0}}" />
+            </Window>
+            <Window Type="Vanilla/StaticText" Name="LosterUI/Info/Congratulations" >
+            	<Property Name="TextColours" Value="tl:FFFF0000 tr:FFFF0000 bl:FFFF0000 br:FFFF0000" />
+            	<Property Name="BackgroundEnabled" Value="False" />
+        		<Property Name="FrameEnabled" Value="False" />	
+                <Property Name="Text" Value="Sorry, Please Try Again!" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="UnifiedAreaRect" Value="{{0.268331,0},{0.182101,0},{0.745347,0},{0.313812,0}}" />
+            </Window>
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="LosterUI/WinnerImage" >
+        	<Property Name="AlwaysOnTop" Value="True" />
+        	<Property Name="Image" Value="set:LosterImageSet image:Loster" />
+        	<Property Name="BackgroundEnabled" Value="False" />
+        	<Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="UnifiedAreaRect" Value="{{0.207408,0},{0.0622585,0},{0.421345,0},{0.386553,0}}" />
+        </Window>
+    </Window>
+</GUILayout>

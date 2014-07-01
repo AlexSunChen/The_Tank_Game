@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="InfosImageSet" Imagefile="InfoPanel.png" >
+    <Image Name="0" XPos="3" YPos="163" Width="28" Height="28" />
+    <Image Name="1" XPos="38" YPos="164" Width="20" Height="26" />
+    <Image Name="2" XPos="68" YPos="164" Width="28" Height="27" />
+    <Image Name="3" XPos="100" YPos="164" Width="28" Height="26" />
+    <Image Name="4" XPos="130" YPos="163" Width="27" Height="27" />
+    <Image Name="5" XPos="163" YPos="163" Width="28" Height="27" />
+    <Image Name="6" XPos="195" YPos="162" Width="28" Height="28" />
+    <Image Name="7" XPos="225" YPos="162" Width="31" Height="28" />
+    <Image Name="8" XPos="2" YPos="196" Width="31" Height="26" />
+    <Image Name="9" XPos="36" YPos="196" Width="28" Height="25" />
+    <Image Name="Add" XPos="40" YPos="222" Width="20" Height="18" />
+    <Image Name="Sub" XPos="8" YPos="222" Width="20" Height="18" />
+    <Image Name="Life" XPos="116" YPos="2" Width="40" Height="42" />
+    <Image Name="Lock" XPos="164" YPos="192" Width="44" Height="51" />
+    <Image Name="Time" XPos="18" YPos="2" Width="44" Height="43" />
+    <Image Name="Money" XPos="223" YPos="191" Width="32" Height="36" />
+    <Image Name="Power" XPos="115" YPos="195" Width="44" Height="42" />
+    <Image Name="Bullet" XPos="114" YPos="101" Width="46" Height="42" />
+    <Image Name="Rebuld" XPos="162" YPos="3" Width="45" Height="43" />
+    <Image Name="Defense" XPos="66" YPos="3" Width="45" Height="42" />
+    <Image Name="MyTanks" XPos="67" YPos="50" Width="44" Height="42" />
+    <Image Name="RedBoom" XPos="164" YPos="97" Width="41" Height="44" />
+    <Image Name="BlueBoom" XPos="68" YPos="97" Width="43" Height="45" />
+    <Image Name="DesTanks" XPos="211" YPos="51" Width="45" Height="43" />
+</Imageset>

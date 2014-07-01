@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="GameUI" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0.001486,0},{0.999025,0},{1.00149,0}}" />
+        <Window Type="Vanilla/StaticText" Name="GameUI/Scores" >
+            <Property Name="Font" Value="FairChar" />
+            <Property Name="Text" Value="0000000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.74347,0},{0.0117386,0},{0.99152,0},{0.0804605,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/LifeImage" >
+            <Property Name="Image" Value="set:InfosImageSet image:Life" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0159844,0},{0.359881,0},{0.0671544,0},{0.434547,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticText" Name="GameUI/Life" >
+            <Property Name="Font" Value="digifaw" />
+            <Property Name="Text" Value="100/100" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0779729,0},{0.362938,0},{0.204192,0},{0.416802,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/TanksImage" >
+            <Property Name="Image" Value="set:InfosImageSet image:MyTanks" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0148149,0},{0.271323,0},{0.0679342,0},{0.347475,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/StateImage" >
+            <Property Name="Image" Value="set:InfosImageSet image:Bullet" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0166508,0},{0.449894,0},{0.0687953,0},{0.524559,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/LastTankImage" >
+            <Property Name="Image" Value="set:InfosImageSet image:DesTanks" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="LeftAligned" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.942884,0},{0.0909362,0},{0.992105,0},{0.167088,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticText" Name="GameUI/LastTanks" >
+            <Property Name="Font" Value="digifaw" />
+            <Property Name="Text" Value="20" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="RightAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.891812,0},{0.103269,0},{0.938109,0},{0.152675,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/ScoreImage" >
+            <Property Name="Image" Value="set:InfosImageSet image:Money" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.69812,0},{0.0196583,0},{0.74734,0},{0.0898662,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticText" Name="GameUI/Infomaton" >
+            <Property Name="Font" Value="digifaw" />
+            <Property Name="Text" Value="TankWar World!" />
+            <Property Name="TextColours" Value="tl:FF000000 tr:FF000000 bl:FF000000 br:FF000000" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="UnifiedAreaRect" Value="{{0.67735,0},{0.883333,0},{0.973534,0},{0.933333,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="WindowsLook/StaticImage" Name="GameUI/SmallMap" >
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.007,0},{0.01453,0},{0.187296,0},{0.248185,0}}" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/Mode" >
+            <Property Name="Image" Value="set:InfosImageSet image:Lock" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.193762,0},{0.0132257,0},{0.222515,0},{0.0552023,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/Add" >
+            <Property Name="Image" Value="set:InfosImageSet image:Add" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.194347,0},{0.0597339,0},{0.2231,0},{0.103196,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/Sub" >
+            <Property Name="Image" Value="set:InfosImageSet image:Sub" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="CentreAligned" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.193957,0},{0.109212,0},{0.22271,0},{0.152675,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/StateImage1" >
+            <Property Name="Font" Value="digifaw" />
+            <Property Name="Text" Value="5" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0770955,0},{0.451041,0},{0.12924,0},{0.525706,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticImage" Name="GameUI/StateImage2" >
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="HorzFormatting" Value="HorzCentred" />
+            <Property Name="VertFormatting" Value="CentreAligned" />
+            <Property Name="UnifiedAreaRect" Value="{{0.138791,0},{0.452006,0},{0.190936,0},{0.526671,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Type="Vanilla/StaticText" Name="GameUI/TankNumber" >
+            <Property Name="Font" Value="digifaw" />
+            <Property Name="Text" Value="3" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="UnifiedAreaRect" Value="{{0.0752435,0},{0.284695,0},{0.128363,0},{0.341531,0}}" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+    </Window>
+</GUILayout>

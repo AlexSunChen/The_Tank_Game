@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout >
+    <Window Type="DefaultWindow" Name="MenuUI" >
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Window Type="Vanilla/FrameWindow" Name="MenuUI/MenuFrame" >
+            <Property Name="Font" Value="FairChar" />
+            <Property Name="Text" Value="Game Menu" />
+            <Property Name="Alpha" Value="0.8" />
+            <Property Name="TitlebarFont" Value="DejaVuSans-10" />
+            <Property Name="TitlebarEnabled" Value="True" />
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{0.5,0},{0.8,0}}" />
+            <Property Name="DragMovingEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="CloseButtonEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Type="Vanilla/Button" Name="MenuUI/MenuFrame/SinglePlayer" >
+                <Property Name="Font" Value="BlueHighway-10" />
+                <Property Name="Text" Value="Single Player" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0,0},{0.8,0},{0.2,0}}" />
+            </Window>
+            <!--<Window Type="Vanilla/Button" Name="MenuUI/MenuFrame/TwoPlayer" >
+                <Property Name="Font" Value="BlueHighway-10" />
+                <Property Name="Text" Value="Two Player" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.25,0},{0.8,0},{0.45,0}}" />
+            </Window>
+            <Window Type="Vanilla/Button" Name="MenuUI/MenuFrame/MutilPlayer" >
+                <Property Name="Font" Value="BlueHighway-10" />
+                <Property Name="Text" Value="Mutil Player" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.5,0},{0.8,0},{0.7,0}}" />
+            </Window>-->
+            <Window Type="Vanilla/Button" Name="MenuUI/MenuFrame/Exit" >
+                <Property Name="Font" Value="BlueHighway-10" />
+                <Property Name="Text" Value="Exit" />
+                <Property Name="Alpha" Value="0.8" />
+                <Property Name="UnifiedAreaRect" Value="{{0.2,0},{0.75,0},{0.8,0},{0.95,0}}" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

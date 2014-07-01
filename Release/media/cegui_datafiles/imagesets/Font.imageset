@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Imageset Name="Font" Imagefile="InfoPanel.png" >
+    <Image Name="0" XPos="3" YPos="163" Width="28" Height="28" />
+    <Image Name="1" XPos="38" YPos="164" Width="20" Height="26" />
+    <Image Name="2" XPos="68" YPos="164" Width="28" Height="27" />
+    <Image Name="3" XPos="100" YPos="164" Width="28" Height="26" />
+    <Image Name="4" XPos="130" YPos="163" Width="27" Height="27" />
+    <Image Name="5" XPos="163" YPos="163" Width="28" Height="27" />
+    <Image Name="6" XPos="195" YPos="162" Width="28" Height="28" />
+    <Image Name="7" XPos="225" YPos="162" Width="31" Height="28" />
+    <Image Name="8" XPos="2" YPos="196" Width="31" Height="26" />
+    <Image Name="9" XPos="36" YPos="196" Width="28" Height="25" />
+</Imageset>
