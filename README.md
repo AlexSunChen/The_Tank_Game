@@ -1,7 +1,7 @@
 The_Tank_Game
 =============
 
-This is a tank game for internship used by Ogre engine(version 1.8.x) CEGUI(version 1.7.x) 
+This is a tank game by Ogre engine(version 1.8.x) CEGUI(version 1.7.x) 
 note: As the different version has different math, using a different version maybe occur some building errors!
 
 Build Environment:
